@@ -1,0 +1,136 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdf4ff;
+  color: #3a003a;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.top-bar {
+  background-color: #e0bbf8;
+  padding: 10px 0;
+  border-bottom: 2px solid #c084fc;
+}
+
+.top-bar .container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 20px;
+}
+
+.top-bar h1 {
+  font-size: 2rem;
+  color: #6b21a8;
+}
+
+.hero {
+  background: linear-gradient(to right, #ede9fe, #fff);
+  padding: 40px 0;
+}
+
+.hero .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h2 {
+  font-size: 2.5rem;
+  color: #6b21a8;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #9333ea;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #6b21a8;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+section {
+  padding: 40px 0;
+}
+
+.descripcion ul {
+  list-style: disc;
+  padding-left: 20px;
+  font-size: 1.1rem;
+}
+
+.nutricion table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.nutricion th, .nutricion td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.nutricion th {
+  background-color: #e9d5ff;
+  color: #4c1d95;
+}
+
+.testimonio img {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+  background-color: #f3e8ff;
+  padding: 20px 0;
+  text-align: center;
+  color: #7e22ce;
+  border-top: 1px solid #ddd;
+}
